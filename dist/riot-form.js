@@ -3508,10 +3508,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  initializeValue: function initializeValue() {
 	    var _this = this;
 	
-	    this.on('mount', function () {
+	    this.on('mount update', function () {
 	      var input = _this[_this.getName()];
-	      if (input && _this.opts.model.value !== undefined) {
-	        input.value = _this.opts.model.value;
+	      if (input) {
+	        input.value = _this.opts.model.value || '';
 	      }
 	    });
 	  }
