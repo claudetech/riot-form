@@ -3318,8 +3318,22 @@ return /******/ (function(modules) { // webpackBootstrap
 	TelInput.defaultTag = 'rf-text-input';
 	TelInput.type = 'tel';
 	
-	var TextareaInput = function (_BaseInput7) {
-	  (0, _inherits3.default)(TextareaInput, _BaseInput7);
+	var DateInput = function (_BaseInput7) {
+	  (0, _inherits3.default)(DateInput, _BaseInput7);
+	
+	  function DateInput() {
+	    (0, _classCallCheck3.default)(this, DateInput);
+	    return (0, _possibleConstructorReturn3.default)(this, (0, _getPrototypeOf2.default)(DateInput).apply(this, arguments));
+	  }
+	
+	  return DateInput;
+	}(_base2.default);
+	
+	TelInput.defaultTag = 'rf-text-input';
+	TelInput.type = 'date';
+	
+	var TextareaInput = function (_BaseInput8) {
+	  (0, _inherits3.default)(TextareaInput, _BaseInput8);
 	
 	  function TextareaInput() {
 	    (0, _classCallCheck3.default)(this, TextareaInput);
