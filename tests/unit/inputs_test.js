@@ -9,6 +9,7 @@ describe('inputs', () => {
     'tel',
     'number',
     'url',
+    'date',
     'textarea'
   ]
 
