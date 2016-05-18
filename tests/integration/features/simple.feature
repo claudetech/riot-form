@@ -12,3 +12,5 @@ Feature: Simple Feature
     And I enter profile "I like to fish"
     Then I should see username "Bob"
     And I should see profile "I like to fish"
+    When I press reset button
+    Then I should see empty form

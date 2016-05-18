@@ -17,4 +17,12 @@ module.exports = function () {
   this.Then(/^I should see ([^\"]*) \"([^\"]*)\"$/, function (property, expected) {
     return expect(this.browser.getText('.' + property)).to.eventually.eq(expected)
   })
+
+  this.When(/^I press reset button$/, function () {
+    return this.browser.click('#reset-button')
+  })
+
+  this.Then(/^I should see empty form$/, function () {
+    return expect(this.browser.getValue('[name="simple_username"]')).to.eventually.eq('')
+  })
 }

@@ -19,12 +19,16 @@
           Username: <span class="username">{ form.model.username }</span>
           Profile: <span class="profile">{ form.model.profile }</span>
         </div>
+        <button id="reset-button" type="button" onclick="{ resetForm }"> Reset </button>
 
         this.form = new riotForm.Form.Builder('simple')
                                  .addInput({name: 'username', type: 'text'})
                                  .addInput({name: 'profile', type: 'textarea'})
                                  .setModel({username: 'Daniel', profile: 'My name is Daniel'})
                                  .build();
+        this.resetForm = () => {
+          this.form.model = {}
+        }
 
         this.form.on('change', () => this.update())
       </app>
