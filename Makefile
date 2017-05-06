@@ -1,7 +1,7 @@
-SELENIUM_JAR		= tmp/selenium-server-standalone.3.1.0.jar
+SELENIUM_JAR		= tmp/selenium-server-standalone.3.4.0.jar
 BOWER_COMPONENTS	= tests/integration/pages/components
 NODE_MODULES		= node_modules
-SELENIUM_URL        = https://goo.gl/sLTIW7
+SELENIUM_URL        = https://goo.gl/s4o9Vx
 
 all: test dist_build
 

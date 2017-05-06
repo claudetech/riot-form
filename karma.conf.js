@@ -36,7 +36,7 @@ module.exports = function (config) {
 
     autoWatch: false,
 
-    browsers: process.env.CI ? ['Firefox'] : ['Chrome'],
+    browsers: ['Firefox'],
 
     singleRun: true,
 
