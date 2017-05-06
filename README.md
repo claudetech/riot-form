@@ -1,4 +1,4 @@
-# riot-form [![Build Status](https://travis-ci.org/claudetech/riot-form.svg?branch=master)](https://travis-ci.org/claudetech/riot-form)
+# riot-form [![CircleCI](https://circleci.com/gh/claudetech/riot-form/tree/master.svg?style=svg)](https://circleci.com/gh/claudetech/riot-form/tree/master)
 
 Easy forms for [riotjs](http://riotjs.com/).
 
